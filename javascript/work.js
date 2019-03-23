@@ -1,0 +1,1 @@
+document.getElementById("experience").innerHTML = localStorage.getItem("2");

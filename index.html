@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About: Augustine Simwela</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/> 
+    </head>
+    <body>
+        <!--The header section and its components-->
+        <div class="header_section">
+                <h2 align = "center">AUGUSTINE SIMWELA : CHANCO STUDENT</h2>
+            <img src="images/display.png" alt="Augustine" class = "display_image">
+            <a href="https://www.facebook.com" ><img src="images/facebook_icon.png" title="contact of facebook" class="icons"></a>
+            <a href="mailto:bsc-49-16@cc.ac.mw"><img src="images/gmail_icon.png" title="email me" class="icons"></a>
+            <a href="https://www.github.com" ><img src="images/github_icon.png" title="follow me on github" class="icons"></a>
+        </div>
+
+        <!--form to collect project details and store in the local storage-->
+        <div class="project_form_container" >
+            <form id="project_form" name ="pform">
+                <fieldset>
+                    <legend>FILL IN PROJECT DETAILS</legend>
+                    <br>
+                    <strong>PROJECT NAME :  </strong>
+                    <input type="text" name="project_name" placeholder="type project name"  required>
+                    <br/>
+                    <strong>PROJECT DETAILS</strong>
+                    <br>
+                    <textarea cols = "40" rows="12" name="project_details" placeholder="type project details" required></textarea>
+                    <br>
+                    <strong>START DATE : </strong>
+                    <input type="date" name="start_date" >
+                    <br><br>
+                    <input type="submit" value="CLICK TO SUBMIT" id="button">
+                </fieldset>
+            </form>
+        </div>
+
+        <!--a container to display the projects entered-->
+        <div class="display_projects"> 
+            <h2 align = "center">PROJECTS LIST</h2>
+            <ul id="project_list">
+               
+            </ul>
+        </div>
+
+        <div class="work_experience">
+                <form id="work_experience_form" name ="pform">
+                        <fieldset>
+                            <legend>FILL IN WORK EXPERIECE DETAILS</legend>
+                            <br>
+                            <strong>TYPE OF WORK :  </strong>
+                            <input type="text" name="work_type" placeholder="type the work title"  required>
+                            <br/>
+                            <strong>WORK DETAILS</strong>
+                            <br>
+                            <textarea cols = "40" rows="12" name="work_details" placeholder="type work experience" required></textarea>
+                            <br>
+                            <strong>START DATE : </strong>
+                            <input type="date" name="start_date" >
+                            <br><br>
+                            <input type="submit" value="CLICK TO SUBMIT" id="button">
+                        </fieldset>
+                </form>
+        </div>
+        <div class="display_work_experience">
+                <h2 align = "center">TYPES OF WORK INVOLVED</h2>
+                <ul id ="work_experince">
+
+                </ul>
+        </div>
+    </body>
+    <script src="javascript/mainScript.js" lang="javasript" type="text/javascript"></script>
+</html>
